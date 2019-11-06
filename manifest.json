@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Frostwind",
+    "version": "1.0.0",
+    "description": "Twitterでツイート検索を行う際に特定のユーザからのツイートを除外します。",
+    "permissions": [
+        "contextMenus"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    }
+}
